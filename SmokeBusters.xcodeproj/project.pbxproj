@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7791A9F2AE89A7B009D8E4A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791A9E2AE89A7B009D8E4A /* Extensions.swift */; };
+		D7791AA32AE9B5C9009D8E4A /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791AA22AE9B5C9009D8E4A /* FAQ.swift */; };
+		D7791AA52AE9B5DC009D8E4A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791AA42AE9B5DC009D8E4A /* CardView.swift */; };
+		D7791AAB2AE9BB3E009D8E4A /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791AAA2AE9BB3E009D8E4A /* Shapes.swift */; };
+		D7791AAE2AE9BEF7009D8E4A /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = D7791AAD2AE9BEF7009D8E4A /* BottomSheet */; };
+		D7791AB02AE9C130009D8E4A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791AAF2AE9C130009D8E4A /* HomeView.swift */; };
+		D7791AB22AE9C37B009D8E4A /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = D7791AB12AE9C37B009D8E4A /* quotes.json */; };
+		D7791AB42AE9C50B009D8E4A /* QuoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791AB32AE9C50B009D8E4A /* QuoteManager.swift */; };
+		D7791AB82AEA0387009D8E4A /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791AB72AEA0387009D8E4A /* Calculations.swift */; };
+		D7791ABA2AEA37D2009D8E4A /* LimitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791AB92AEA37D2009D8E4A /* LimitModel.swift */; };
+		D7791ABC2AEB0D0A009D8E4A /* Streaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791ABB2AEB0D0A009D8E4A /* Streaks.swift */; };
+		D7791ADD2AEB4A0D009D8E4A /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7791ADC2AEB4A0D009D8E4A /* Montserrat-Bold.ttf */; };
+		D7791AEC2AEB6665009D8E4A /* Mont-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7791AEB2AEB6665009D8E4A /* Mont-Book.ttf */; };
+		D7791AEE2AEB9EF6009D8E4A /* COView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791AED2AEB9EF6009D8E4A /* COView.swift */; };
+		D7791AF02AEB9F28009D8E4A /* O3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791AEF2AEB9F28009D8E4A /* O3View.swift */; };
+		D7791AF62AEB9F87009D8E4A /* PM10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791AF52AEB9F87009D8E4A /* PM10View.swift */; };
+		D7791AF82AEB9FA1009D8E4A /* NO2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791AF72AEB9FA1009D8E4A /* NO2View.swift */; };
+		D7791AFA2AEC7666009D8E4A /* ProgressBarCO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7791AF92AEC7666009D8E4A /* ProgressBarCO.swift */; };
+		D780D90B2AE73A900066758E /* SmokeBustersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D780D90A2AE73A900066758E /* SmokeBustersApp.swift */; };
+		D780D90D2AE73A900066758E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D780D90C2AE73A900066758E /* ContentView.swift */; };
+		D780D90F2AE73A920066758E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D780D90E2AE73A920066758E /* Assets.xcassets */; };
+		D780D9122AE73A920066758E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D780D9112AE73A920066758E /* Preview Assets.xcassets */; };
+		D780D9192AE7400B0066758E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D780D9182AE7400B0066758E /* LocationManager.swift */; };
+		D780D91C2AE744210066758E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D780D91B2AE744210066758E /* WelcomeView.swift */; };
+		D780D9202AE746CD0066758E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D780D91F2AE746CD0066758E /* LoadingView.swift */; };
+		D78122B52AEF5E27006CC6AD /* ArticleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78122B42AEF5E27006CC6AD /* ArticleCard.swift */; };
+		D78122B72AEF5E50006CC6AD /* ArticleCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78122B62AEF5E50006CC6AD /* ArticleCardModel.swift */; };
+		D78122B92AEF63C3006CC6AD /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78122B82AEF63C3006CC6AD /* ArticleView.swift */; };
+		D78122BC2AEF6862006CC6AD /* TipsToQuitSmokingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78122BB2AEF6862006CC6AD /* TipsToQuitSmokingView.swift */; };
+		D78122BE2AEF6F09006CC6AD /* LongTermEffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78122BD2AEF6F09006CC6AD /* LongTermEffectsView.swift */; };
+		D78122C02AEF6F22006CC6AD /* NicotoneAddictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78122BF2AEF6F22006CC6AD /* NicotoneAddictionView.swift */; };
+		D78122C22AEF6FB6006CC6AD /* OvercomingSmokingTriggersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78122C12AEF6FB6006CC6AD /* OvercomingSmokingTriggersView.swift */; };
+		D78122C42AEF6FCA006CC6AD /* WhatDrivesTheCravingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78122C32AEF6FCA006CC6AD /* WhatDrivesTheCravingView.swift */; };
+		D78122C62AEF7072006CC6AD /* SecondHandSmokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78122C52AEF7072006CC6AD /* SecondHandSmokeView.swift */; };
+		D78122C82AEF7CBA006CC6AD /* More.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78122C72AEF7CBA006CC6AD /* More.swift */; };
+		D78122E82AF170E9006CC6AD /* DirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78122E72AF170E9006CC6AD /* DirectionView.swift */; };
+		D78F47ED2AEDBAB9007C401B /* ProgressBarO3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78F47EC2AEDBAB9007C401B /* ProgressBarO3.swift */; };
+		D78F47EF2AEDBD62007C401B /* ProgressBarPM10.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78F47EE2AEDBD62007C401B /* ProgressBarPM10.swift */; };
+		D78F47F12AEDBF49007C401B /* ProgressBarNO2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78F47F02AEDBF49007C401B /* ProgressBarNO2.swift */; };
+		D78F47F32AEDD9F2007C401B /* CODetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78F47F22AEDD9F2007C401B /* CODetail.swift */; };
+		D78F47F52AEDDF28007C401B /* O3Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78F47F42AEDDF28007C401B /* O3Detail.swift */; };
+		D78F47F92AEDDF43007C401B /* PM10Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78F47F82AEDDF43007C401B /* PM10Detail.swift */; };
+		D78F47FB2AEDDF50007C401B /* NO2Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78F47FA2AEDDF50007C401B /* NO2Detail.swift */; };
+		D79577FB2AE86C88006C1E90 /* PollutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79577FA2AE86C88006C1E90 /* PollutionManager.swift */; };
+		D79577FF2AE87842006C1E90 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79577FE2AE87842006C1E90 /* ModelData.swift */; };
+		D79578012AE87964006C1E90 /* pollutionData.json in Resources */ = {isa = PBXBuildFile; fileRef = D79578002AE87964006C1E90 /* pollutionData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7791A9E2AE89A7B009D8E4A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D7791AA22AE9B5C9009D8E4A /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		D7791AA42AE9B5DC009D8E4A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D7791AAA2AE9BB3E009D8E4A /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		D7791AAF2AE9C130009D8E4A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D7791AB12AE9C37B009D8E4A /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		D7791AB32AE9C50B009D8E4A /* QuoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteManager.swift; sourceTree = "<group>"; };
+		D7791AB72AEA0387009D8E4A /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
+		D7791AB92AEA37D2009D8E4A /* LimitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitModel.swift; sourceTree = "<group>"; };
+		D7791ABB2AEB0D0A009D8E4A /* Streaks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streaks.swift; sourceTree = "<group>"; };
+		D7791ADC2AEB4A0D009D8E4A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		D7791AE02AEB4DBC009D8E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D7791AEB2AEB6665009D8E4A /* Mont-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mont-Book.ttf"; sourceTree = "<group>"; };
+		D7791AED2AEB9EF6009D8E4A /* COView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COView.swift; sourceTree = "<group>"; };
+		D7791AEF2AEB9F28009D8E4A /* O3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O3View.swift; sourceTree = "<group>"; };
+		D7791AF52AEB9F87009D8E4A /* PM10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PM10View.swift; sourceTree = "<group>"; };
+		D7791AF72AEB9FA1009D8E4A /* NO2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NO2View.swift; sourceTree = "<group>"; };
+		D7791AF92AEC7666009D8E4A /* ProgressBarCO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarCO.swift; sourceTree = "<group>"; };
+		D780D9072AE73A900066758E /* SmokeBusters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmokeBusters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D780D90A2AE73A900066758E /* SmokeBustersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokeBustersApp.swift; sourceTree = "<group>"; };
+		D780D90C2AE73A900066758E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D780D90E2AE73A920066758E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D780D9112AE73A920066758E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D780D9182AE7400B0066758E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D780D91B2AE744210066758E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		D780D91F2AE746CD0066758E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		D78122B42AEF5E27006CC6AD /* ArticleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCard.swift; sourceTree = "<group>"; };
+		D78122B62AEF5E50006CC6AD /* ArticleCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCardModel.swift; sourceTree = "<group>"; };
+		D78122B82AEF63C3006CC6AD /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		D78122BB2AEF6862006CC6AD /* TipsToQuitSmokingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsToQuitSmokingView.swift; sourceTree = "<group>"; };
+		D78122BD2AEF6F09006CC6AD /* LongTermEffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTermEffectsView.swift; sourceTree = "<group>"; };
+		D78122BF2AEF6F22006CC6AD /* NicotoneAddictionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicotoneAddictionView.swift; sourceTree = "<group>"; };
+		D78122C12AEF6FB6006CC6AD /* OvercomingSmokingTriggersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvercomingSmokingTriggersView.swift; sourceTree = "<group>"; };
+		D78122C32AEF6FCA006CC6AD /* WhatDrivesTheCravingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDrivesTheCravingView.swift; sourceTree = "<group>"; };
+		D78122C52AEF7072006CC6AD /* SecondHandSmokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondHandSmokeView.swift; sourceTree = "<group>"; };
+		D78122C72AEF7CBA006CC6AD /* More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = More.swift; sourceTree = "<group>"; };
+		D78122E72AF170E9006CC6AD /* DirectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionView.swift; sourceTree = "<group>"; };
+		D78F47EC2AEDBAB9007C401B /* ProgressBarO3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarO3.swift; sourceTree = "<group>"; };
+		D78F47EE2AEDBD62007C401B /* ProgressBarPM10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarPM10.swift; sourceTree = "<group>"; };
+		D78F47F02AEDBF49007C401B /* ProgressBarNO2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarNO2.swift; sourceTree = "<group>"; };
+		D78F47F22AEDD9F2007C401B /* CODetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CODetail.swift; sourceTree = "<group>"; };
+		D78F47F42AEDDF28007C401B /* O3Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O3Detail.swift; sourceTree = "<group>"; };
+		D78F47F82AEDDF43007C401B /* PM10Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PM10Detail.swift; sourceTree = "<group>"; };
+		D78F47FA2AEDDF50007C401B /* NO2Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NO2Detail.swift; sourceTree = "<group>"; };
+		D79577FA2AE86C88006C1E90 /* PollutionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollutionManager.swift; sourceTree = "<group>"; };
+		D79577FE2AE87842006C1E90 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D79578002AE87964006C1E90 /* pollutionData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pollutionData.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D780D9042AE73A900066758E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7791AAE2AE9BEF7009D8E4A /* BottomSheet in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7791A932AE8975B009D8E4A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D7791AAF2AE9C130009D8E4A /* HomeView.swift */,
+				D7791AB72AEA0387009D8E4A /* Calculations.swift */,
+				D7791ABB2AEB0D0A009D8E4A /* Streaks.swift */,
+				D78122C72AEF7CBA006CC6AD /* More.swift */,
+				D78122E72AF170E9006CC6AD /* DirectionView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D7791A942AE89763009D8E4A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				D7791AA22AE9B5C9009D8E4A /* FAQ.swift */,
+				D7791AA42AE9B5DC009D8E4A /* CardView.swift */,
+				D78122B42AEF5E27006CC6AD /* ArticleCard.swift */,
+				D78122B82AEF63C3006CC6AD /* ArticleView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		D7791A952AE89775009D8E4A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D7791AED2AEB9EF6009D8E4A /* COView.swift */,
+				D7791AEF2AEB9F28009D8E4A /* O3View.swift */,
+				D7791AF52AEB9F87009D8E4A /* PM10View.swift */,
+				D7791AF72AEB9FA1009D8E4A /* NO2View.swift */,
+				D7791AF92AEC7666009D8E4A /* ProgressBarCO.swift */,
+				D78F47EC2AEDBAB9007C401B /* ProgressBarO3.swift */,
+				D78F47EE2AEDBD62007C401B /* ProgressBarPM10.swift */,
+				D78F47F02AEDBF49007C401B /* ProgressBarNO2.swift */,
+				D78F47F22AEDD9F2007C401B /* CODetail.swift */,
+				D78F47F42AEDDF28007C401B /* O3Detail.swift */,
+				D78F47F82AEDDF43007C401B /* PM10Detail.swift */,
+				D78F47FA2AEDDF50007C401B /* NO2Detail.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		D7791A962AE8977A009D8E4A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D7791A972AE89800009D8E4A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D7791ADB2AEB49CE009D8E4A /* Fonts */,
+				D7791A9E2AE89A7B009D8E4A /* Extensions.swift */,
+				D7791AAA2AE9BB3E009D8E4A /* Shapes.swift */,
+				D7791AB12AE9C37B009D8E4A /* quotes.json */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D7791ADB2AEB49CE009D8E4A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D7791ADC2AEB4A0D009D8E4A /* Montserrat-Bold.ttf */,
+				D7791AEB2AEB6665009D8E4A /* Mont-Book.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D780D8FE2AE73A900066758E = {
+			isa = PBXGroup;
+			children = (
+				D780D9092AE73A900066758E /* SmokeBusters */,
+				D780D9082AE73A900066758E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D780D9082AE73A900066758E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D780D9072AE73A900066758E /* SmokeBusters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D780D9092AE73A900066758E /* SmokeBusters */ = {
+			isa = PBXGroup;
+			children = (
+				D78122BA2AEF65A1006CC6AD /* Articles */,
+				D7791AE02AEB4DBC009D8E4A /* Info.plist */,
+				D7791A972AE89800009D8E4A /* Utils */,
+				D79577F92AE86C57006C1E90 /* Managers */,
+				D780D91A2AE7426E0066758E /* Views */,
+				D780D90A2AE73A900066758E /* SmokeBustersApp.swift */,
+				D780D90E2AE73A920066758E /* Assets.xcassets */,
+				D780D9102AE73A920066758E /* Preview Content */,
+			);
+			path = SmokeBusters;
+			sourceTree = "<group>";
+		};
+		D780D9102AE73A920066758E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D780D9112AE73A920066758E /* Preview Assets.xcassets */,
+				D79577FE2AE87842006C1E90 /* ModelData.swift */,
+				D79578002AE87964006C1E90 /* pollutionData.json */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D780D91A2AE7426E0066758E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7791A932AE8975B009D8E4A /* Main */,
+				D7791A942AE89763009D8E4A /* Navigation */,
+				D7791A952AE89775009D8E4A /* Detail */,
+				D7791A962AE8977A009D8E4A /* Components */,
+				D780D90C2AE73A900066758E /* ContentView.swift */,
+				D780D91B2AE744210066758E /* WelcomeView.swift */,
+				D780D91F2AE746CD0066758E /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D78122BA2AEF65A1006CC6AD /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				D78122BB2AEF6862006CC6AD /* TipsToQuitSmokingView.swift */,
+				D78122BD2AEF6F09006CC6AD /* LongTermEffectsView.swift */,
+				D78122BF2AEF6F22006CC6AD /* NicotoneAddictionView.swift */,
+				D78122C12AEF6FB6006CC6AD /* OvercomingSmokingTriggersView.swift */,
+				D78122C32AEF6FCA006CC6AD /* WhatDrivesTheCravingView.swift */,
+				D78122C52AEF7072006CC6AD /* SecondHandSmokeView.swift */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		D79577F92AE86C57006C1E90 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D780D9182AE7400B0066758E /* LocationManager.swift */,
+				D79577FA2AE86C88006C1E90 /* PollutionManager.swift */,
+				D7791AB32AE9C50B009D8E4A /* QuoteManager.swift */,
+				D7791AB92AEA37D2009D8E4A /* LimitModel.swift */,
+				D78122B62AEF5E50006CC6AD /* ArticleCardModel.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D780D9062AE73A900066758E /* SmokeBusters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D780D9152AE73A920066758E /* Build configuration list for PBXNativeTarget "SmokeBusters" */;
+			buildPhases = (
+				D780D9032AE73A900066758E /* Sources */,
+				D780D9042AE73A900066758E /* Frameworks */,
+				D780D9052AE73A900066758E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmokeBusters;
+			packageProductDependencies = (
+				D7791AAD2AE9BEF7009D8E4A /* BottomSheet */,
+			);
+			productName = SmokeBusters;
+			productReference = D780D9072AE73A900066758E /* SmokeBusters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D780D8FF2AE73A900066758E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D780D9062AE73A900066758E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D780D9022AE73A900066758E /* Build configuration list for PBXProject "SmokeBusters" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D780D8FE2AE73A900066758E;
+			packageReferences = (
+				D7791AAC2AE9BEF7009D8E4A /* XCRemoteSwiftPackageReference "BottomSheet" */,
+			);
+			productRefGroup = D780D9082AE73A900066758E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D780D9062AE73A900066758E /* SmokeBusters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D780D9052AE73A900066758E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7791ADD2AEB4A0D009D8E4A /* Montserrat-Bold.ttf in Resources */,
+				D7791AEC2AEB6665009D8E4A /* Mont-Book.ttf in Resources */,
+				D7791AB22AE9C37B009D8E4A /* quotes.json in Resources */,
+				D780D9122AE73A920066758E /* Preview Assets.xcassets in Resources */,
+				D79578012AE87964006C1E90 /* pollutionData.json in Resources */,
+				D780D90F2AE73A920066758E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D780D9032AE73A900066758E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78122B92AEF63C3006CC6AD /* ArticleView.swift in Sources */,
+				D78F47EF2AEDBD62007C401B /* ProgressBarPM10.swift in Sources */,
+				D78F47F52AEDDF28007C401B /* O3Detail.swift in Sources */,
+				D7791AA52AE9B5DC009D8E4A /* CardView.swift in Sources */,
+				D78122C62AEF7072006CC6AD /* SecondHandSmokeView.swift in Sources */,
+				D7791AB02AE9C130009D8E4A /* HomeView.swift in Sources */,
+				D78122E82AF170E9006CC6AD /* DirectionView.swift in Sources */,
+				D7791AF62AEB9F87009D8E4A /* PM10View.swift in Sources */,
+				D7791ABC2AEB0D0A009D8E4A /* Streaks.swift in Sources */,
+				D780D90D2AE73A900066758E /* ContentView.swift in Sources */,
+				D7791A9F2AE89A7B009D8E4A /* Extensions.swift in Sources */,
+				D7791AB42AE9C50B009D8E4A /* QuoteManager.swift in Sources */,
+				D78F47F32AEDD9F2007C401B /* CODetail.swift in Sources */,
+				D7791AF02AEB9F28009D8E4A /* O3View.swift in Sources */,
+				D7791AA32AE9B5C9009D8E4A /* FAQ.swift in Sources */,
+				D7791AF82AEB9FA1009D8E4A /* NO2View.swift in Sources */,
+				D780D90B2AE73A900066758E /* SmokeBustersApp.swift in Sources */,
+				D78122C82AEF7CBA006CC6AD /* More.swift in Sources */,
+				D78122BC2AEF6862006CC6AD /* TipsToQuitSmokingView.swift in Sources */,
+				D7791AAB2AE9BB3E009D8E4A /* Shapes.swift in Sources */,
+				D78F47FB2AEDDF50007C401B /* NO2Detail.swift in Sources */,
+				D78F47F12AEDBF49007C401B /* ProgressBarNO2.swift in Sources */,
+				D7791AFA2AEC7666009D8E4A /* ProgressBarCO.swift in Sources */,
+				D78122B72AEF5E50006CC6AD /* ArticleCardModel.swift in Sources */,
+				D79577FB2AE86C88006C1E90 /* PollutionManager.swift in Sources */,
+				D7791AEE2AEB9EF6009D8E4A /* COView.swift in Sources */,
+				D780D9192AE7400B0066758E /* LocationManager.swift in Sources */,
+				D78122C42AEF6FCA006CC6AD /* WhatDrivesTheCravingView.swift in Sources */,
+				D78122B52AEF5E27006CC6AD /* ArticleCard.swift in Sources */,
+				D79577FF2AE87842006C1E90 /* ModelData.swift in Sources */,
+				D7791ABA2AEA37D2009D8E4A /* LimitModel.swift in Sources */,
+				D780D9202AE746CD0066758E /* LoadingView.swift in Sources */,
+				D780D91C2AE744210066758E /* WelcomeView.swift in Sources */,
+				D78F47F92AEDDF43007C401B /* PM10Detail.swift in Sources */,
+				D78122BE2AEF6F09006CC6AD /* LongTermEffectsView.swift in Sources */,
+				D7791AB82AEA0387009D8E4A /* Calculations.swift in Sources */,
+				D78F47ED2AEDBAB9007C401B /* ProgressBarO3.swift in Sources */,
+				D78122C02AEF6F22006CC6AD /* NicotoneAddictionView.swift in Sources */,
+				D78122C22AEF6FB6006CC6AD /* OvercomingSmokingTriggersView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D780D9132AE73A920066758E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D780D9142AE73A920066758E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D780D9162AE73A920066758E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmokeBusters/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M9J4BS29X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmokeBusters/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sia-Bedi.SmokeBusters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D780D9172AE73A920066758E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmokeBusters/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M9J4BS29X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmokeBusters/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sia-Bedi.SmokeBusters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D780D9022AE73A900066758E /* Build configuration list for PBXProject "SmokeBusters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D780D9132AE73A920066758E /* Debug */,
+				D780D9142AE73A920066758E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D780D9152AE73A920066758E /* Build configuration list for PBXNativeTarget "SmokeBusters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D780D9162AE73A920066758E /* Debug */,
+				D780D9172AE73A920066758E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7791AAC2AE9BEF7009D8E4A /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wouter125/BottomSheet";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7791AAD2AE9BEF7009D8E4A /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7791AAC2AE9BEF7009D8E4A /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D780D8FF2AE73A900066758E /* Project object */;
+}
